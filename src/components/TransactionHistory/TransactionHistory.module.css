@@ -1,0 +1,23 @@
+.transactionTable {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+th {
+  text-align: center;
+  padding: 10px;
+  height: 20px;
+  color: #fff;
+  background-color: #706d97;
+}
+
+td {
+  width: 100px;
+  padding: 10px;
+  height: 20px;
+  color: #696969;
+  border-bottom: 1px solid #eee;
+}
+
+tr:nth-child(odd) {
+  background-color: #eee;
+}
